@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:  url(https://www.pixelstalk.net/wp-content/uploads/images1/Game-Tetris-Backgrounds.jpg);
+}
+
+.cell {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: gray;
+}
+
+.game-border {
+	display: flex;
+	gap: 237px;
+}
+
+.game-board {
+	margin-top: 10%;
+	width: 300px;
+	height: 600px;
+	background-color: #222222be;
+	border: 1px solid white;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  
+  .row1,
+  .row2 {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: gray;
+  }
+
+  .row3,
+  .row4 {
+	display: flex;
+	height: 30px;
+	width: 297px;
+  }
+  
+  .cell {
+	height: 30px;
+	width: 30px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	background-color: gray;
+  }
+
+.container {
+	margin: auto;
+	width: 600px;
+}
+
+.game-info {
+    margin-top: 10%;
+    background-color: #222222be;
+	color: white;
+	width: 250px;
+	height: 600px;
+	border: 1px solid white;
+	float: right;
+}
+
+.score, .level {
+	margin-top: 20px;
+	font-size: 24px;
+	text-align: center;
+}
+
+.start-game, .pause-game, .reset-game {
+	display: block;
+	margin: 20px auto;
+	font-size: 18px;
+	padding: 10px 20px;
+}
